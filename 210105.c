@@ -108,7 +108,7 @@ int main() {
 	printf("역삼각형 모양의 피라미드를 몇줄로 만들건가요? : ");
     scanf_s("%d", &line);
 	for (i = 1; i <= line; i++) {
-		for (j = 1; j <= (-2) * i + 7; j++) {
+		for (j = 1; j <= 2*i; j++) {
 			printf("%c", star);
 		}	for (a = 1; a <= line - i; a++) {
 					printf("%c", blank);

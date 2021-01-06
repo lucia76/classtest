@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	float f = 1.1;
+	float f = 1.2;
 	double d = 2.222;
 	printf("%f\n", f);//\n∞Ë«‡
 	printf("%f\n", d);
